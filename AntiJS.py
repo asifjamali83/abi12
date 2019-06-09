@@ -504,7 +504,7 @@ def help2():
                   "     ◄]·✪·рг๏ҭєςҭ·✪·[►" + "\n" + \
                   "╠═══════════════════════╝" + "\n" + \
                   "╠❂͜͡☬➣ " + key + "Nt「on/off」\n" + \
-                  "╠❂͜͡☬➣ " + key + ".allpro「on/off」\n" + \
+                  "╠❂͜͡☬➣ " + key + "Dp「on/off」\n" + \
                   "╠❂͜͡☬➣ " + key + "Pu「on/off」\n" + \
                   "╠❂͜͡☬➣ " + key + "Pj「on/off」\n" + \
                   "╠❂͜͡☬➣ " + key + "Pk「on/off」\n" + \
@@ -5172,7 +5172,7 @@ def bot(op):
                                          msgs = "งђ๏รҭ รม๔คђ ๔īก๏กคкҭīғкคก"
                                     boy.sendMessage(msg.to, "๔īก๏กคкҭīғкคก\n" + msgs)
 
-                        elif '.allpro ' in msg.text:
+                        elif 'Dp ' in msg.text:
                            if msg._from in admin:
                               spl = msg.text.replace('Dp ','')
                               if spl == 'on':
